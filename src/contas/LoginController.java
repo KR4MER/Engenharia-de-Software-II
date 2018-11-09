@@ -10,6 +10,7 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
 /**
@@ -23,6 +24,8 @@ public class LoginController implements Initializable {
     private TextField tfUser;
     @FXML
     private TextField tfSenha;
+    @FXML
+    private Button douglas;
 
     /**
      * Initializes the controller class.
@@ -37,7 +40,7 @@ public class LoginController implements Initializable {
     }
 
     @FXML
-    private void btCancelAction(ActionEvent event) {
+    private void douglasAction(ActionEvent event) {
     }
     
 }
